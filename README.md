@@ -11,3 +11,9 @@ Background in IT networking from Technisches Gymnasium.
 
 ## Tools
 Kali Linux · Nmap · Wireshark · Ettercap · Metasploit
+
+## Roadmap
+- [ ] Alfa AWUS036ACM — WiFi pentesting
+- [ ] WPA2 handshake capture and cracking
+- [ ] HackTheBox writeups
+- [ ] CompTIA Security+
