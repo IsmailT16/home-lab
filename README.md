@@ -1,7 +1,10 @@
 # 🔐 Security Lab
 
 Learning offensive security through hands-on practice.
-Background in IT networking from Technisches Gymnasium (DNS, NAT, VLANs, subnetting).
+Background from Technisches Gymnasium Informationstechnik - 
+covering digital electronics, microcontroller programming (C/C++), 
+OOP, databases, networking (OSI, TCP/IP, VLANs, subnetting, routing, 
+firewalls) and IoT.
 
 ---
 
