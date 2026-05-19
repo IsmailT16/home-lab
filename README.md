@@ -17,3 +17,14 @@ Kali Linux · Nmap · Wireshark · Ettercap · Metasploit
 - [ ] WPA2 handshake capture and cracking
 - [ ] HackTheBox writeups
 - [ ] CompTIA Security+
+
+
+## Lab 02 - Metasploitable 2 Setup
+**Date:** May 2026
+
+### Network Config
+- Kali: eth0 NAT (Internet) + eth1 Internal Network 192.168.56.20
+- Metasploitable: eth0 Internal Network 192.168.56.10
+
+### Connectivity
+ping 192.168.56.10 → 0% packet loss ✅
