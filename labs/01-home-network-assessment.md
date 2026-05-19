@@ -1,4 +1,4 @@
-# Lab 01 — Home Network Assessment
+# Lab 01 - Home Network Assessment
 
 **Date:** May 2026
 **Status:** ✅ Completed
@@ -28,7 +28,7 @@ Initial issue: VM was running in NAT mode (IP: 10.0.2.15) — VirtualBox respond
 
 ---
 
-## Phase 1 — Network Reconnaissance
+## Phase 1 - Network Reconnaissance
 
 ```bash
 sudo nmap -sn 192.168.x.0/24
@@ -49,7 +49,7 @@ sudo nmap -sn 192.168.x.0/24
 
 ---
 
-## Phase 2 — Service & OS Fingerprinting
+## Phase 2 - Service & OS Fingerprinting
 
 ```bash
 sudo nmap -A <target>
