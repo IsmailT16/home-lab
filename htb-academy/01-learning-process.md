@@ -1,4 +1,4 @@
-# HTB Academy — Learning Process
+# HTB Academy - Learning Process
 
 **Date:** May 2026  
 **Status:** ✅ Completed
