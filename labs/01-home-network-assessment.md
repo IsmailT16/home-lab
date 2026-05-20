@@ -8,7 +8,7 @@
 
 ## Goal
 
-Perform a full reconnaissance of the home network — discover all devices, fingerprint services, analyze traffic, and demonstrate a Man-in-the-Middle attack on a personally owned device.
+Perform a full reconnaissance of the home network - discover all devices, fingerprint services, analyze traffic, and demonstrate a Man-in-the-Middle attack on a personally owned device.
 
 All testing performed on personally owned and authorized equipment.
 
@@ -16,7 +16,7 @@ All testing performed on personally owned and authorized equipment.
 
 ## Network Setup
 
-Initial issue: VM was running in NAT mode (IP: 10.0.2.15) — VirtualBox responded to all ICMP probes resulting in 256 fake hosts.
+Initial issue: VM was running in NAT mode (IP: 10.0.2.15) - VirtualBox responded to all ICMP probes resulting in 256 fake hosts.
 
 **Fix: Switched to Bridged Adapter**
 
@@ -57,14 +57,14 @@ sudo nmap --script vuln <target>
 ```
 
 **Home Router:**
-- Port 53/TCP — DNS
-- Port 80/TCP — HTTP, Apache — web admin panel
-- Port 8443/TCP — HTTPS, vendor SSL certificate
-- Port 5060/TCP — SIP/VoIP (filtered)
+- Port 53/TCP - DNS
+- Port 80/TCP - HTTP, Apache — web admin panel
+- Port 8443/TCP - HTTPS, vendor SSL certificate
+- Port 5060/TCP - SIP/VoIP (filtered)
 - OS: OpenWrt, Linux kernel 4.x
 
 **IoT Streaming Device:**
-- Port 8009/TCP — AJP (tcpwrapped)
+- Port 8009/TCP - AJP (tcpwrapped)
 - OS: Android 5.0.2 (EOL since 2014)
 - Vuln scan: no exploitable findings on exposed port
 
@@ -82,7 +82,7 @@ sudo wireshark
 
 Captured traffic passively on eth0. Key observations:
 
-- mDNS from IoT device to `224.0.0.251` — device announcing services on LAN
+- mDNS from IoT device to `224.0.0.251` - device announcing services on LAN
 - DNS queries visible in plaintext between hosts and router
 - HTTPS traffic: domains visible, content encrypted (TLS)
 - Background app traffic - devices contacting servers without user interaction
@@ -110,7 +110,7 @@ sudo ettercap -T -q -i eth0 -M arp:remote /<gateway>// /<target>//
 - Kali MAC visible as source on phone packets in Wireshark ✅
 - DNS queries intercepted in real time ✅
 - google.com lookup captured live ✅
-- HTTPS content remained encrypted — only domains visible
+- HTTPS content remained encrypted - only domains visible
 
 **Key insight:** This is exactly how attackers operate on public WiFi. HTTPS protects content. HTTP exposes everything. VPN protects both.
 
@@ -122,7 +122,7 @@ sudo ettercap -T -q -i eth0 -M arp:remote /<gateway>// /<target>//
 |---|---|---|
 | Router | Medium | HTTP admin panel exposed, web server fingerprinted |
 | Router | Low | Overly long SSL certificate validity (vendor issue) |
-| IoT Device | Medium | Android 5.0.2 EOL — no updates since 2014 |
+| IoT Device | Medium | Android 5.0.2 EOL - no updates since 2014 |
 | Windows PC | Low | Fully firewalled, no information leaked |
 | Mobile Phones | Low | MAC randomization active |
 
