@@ -36,9 +36,9 @@ Kali Linux · Nmap · Wireshark · Ettercap · Metasploit · arp-scan
 - [x] ARP spoofing / MITM
 - [x] Metasploitable 2 lab setup
 - [ ] Metasploitable exploitation with Metasploit
-- [ ] Alfa AWUS036ACM — WiFi pentesting
+- [ ] Alfa AWUS036ACM - WiFi pentesting
 - [ ] WPA2 handshake capture and cracking
-- [ ] HackTheBox writeups
+- [x] HackTheBox writeups
 - [ ] CompTIA Security+
 
 ---
