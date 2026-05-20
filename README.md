@@ -15,6 +15,12 @@ firewalls) and IoT.
 | 01 | [Home Network Assessment](labs/01-home-network-assessment.md) | ✅ Completed |
 | 02 | [Metasploitable 2 Setup](labs/02-metasploitable-setup.md) | 🔄 In Progress |
 
+## 📚 HTB Academy
+
+| # | Module | Status |
+|---|---|---|
+| 01 | [Learning Process](htb-academy/01-learning-process.md) | ✅ Completed |
+
 ---
 
 ## 🛠️ Tools
