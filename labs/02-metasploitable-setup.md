@@ -95,11 +95,11 @@ Nmap scan confirmed multiple open ports on Metasploitable ✅
 
 ## Next Steps
 
-- [ ] Full Nmap service scan - document all open ports
-- [ ] Identify exploitable services
-- [ ] First exploit with Metasploit Framework
-- [ ] Privilege escalation
-- [ ] Document findings in Lab 03
+- [x] Full Nmap service scan - document all open ports
+- [x] Identify exploitable services
+- [x] First exploit with Metasploit Framework
+- [x] Privilege escalation
+- [x] Document findings in Lab 03
 
 ---
 
