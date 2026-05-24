@@ -6,6 +6,8 @@ covering digital electronics, microcontroller programming (C/C++),
 OOP, databases, networking (OSI, TCP/IP, VLANs, subnetting, routing, 
 firewalls) and IoT.
 
+> All testing performed on personally owned and authorized equipment.
+
 ---
 
 ## 🧪 Labs
