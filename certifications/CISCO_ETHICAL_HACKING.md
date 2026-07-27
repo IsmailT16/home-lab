@@ -15,9 +15,6 @@
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat&logo=nmap&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
-![Scapy](https://img.shields.io/badge/Scapy-Python-3776AB?style=flat&logo=python&logoColor=white)
-![Shodan](https://img.shields.io/badge/Shodan-FF0000?style=flat&logoColor=white)
-![OSINT](https://img.shields.io/badge/OSINT-Google_Dorks-4285F4?style=flat&logo=google&logoColor=white)
 
 | Domain | Skills |
 |---|---|
