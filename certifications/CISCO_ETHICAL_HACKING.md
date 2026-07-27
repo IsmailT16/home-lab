@@ -156,6 +156,28 @@ Applied social psychology framework used in Red Teaming campaigns:
 
 ---
 
+## Module 5: Exploiting Wired and Wireless Networks
+
+This module focuses on network layer vulnerabilities, protocol exploitation, and wireless attack vectors. It covers methods for manipulating network traffic, bypassing access controls, and auditing wireless communication protocols.
+
+### Key Concepts & Knowledge Gained
+
+#### Network Based Attacks
+
+* **Name Resolution & Protocol Spoofing:** Windows Name Resolution (LLMNR/NBT-NS), SMB relaying, DNS cache poisoning, and SMTP enumeration and exploits.
+* **Authentication & Directory Services:** Kerberoasting, LDAP based attacks, and Pass the Hash (PtH) techniques.
+* **Traffic & Route Manipulation:** On Path (Man in the Middle) attacks using tools like Ettercap, route manipulation, ARP spoofing, and DHCP starvation and rogue DHCP server deployment.
+* **Infrastructure & Access Controls:** DoS/DDoS attack vectors, Network Access Control (NAC) bypass using MAC address spoofing, and VLAN Hopping (including double tagging mitigations).
+
+#### Wireless & Short Range Attacks
+
+* **WiFi Exploitation:** Rogue Access Points, Evil Twin setups, Deauthentication and Disassociation frames, Preferred Network List (PNL) attacks, and KARMA attacks.
+* **Cryptographic & Protocol Weaknesses:** Initialization Vector (IV) flaws, fragmentation attacks, and credential harvesting.
+* **Short Range Protocols:** Bluetooth Low Energy (BLE) vulnerabilities, Bluejacking, Bluesnarfing, and RFID cloning and attacks.
+* **Attack Methodologies:** Password spraying, signal jamming and interference awareness, war driving, and exploit chaining.
+
+---
+
 ## Methodology Reference
 
 | Standard | Focus |
