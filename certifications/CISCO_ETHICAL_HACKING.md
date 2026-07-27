@@ -1,4 +1,4 @@
-# Cisco — Junior Ethical Hacker
+# Cisco Junior Ethical Hacker
 
 **Platform:** Cisco Skills for All
 **Status:** 🔄 In Progress
