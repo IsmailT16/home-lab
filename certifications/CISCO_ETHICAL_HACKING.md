@@ -114,6 +114,48 @@ Direct interaction with the target, requiring explicit authorization (signed RoE
 
 ---
 
+## Module 4: Social Engineering & Psychological Operations
+
+This module covers the human element of cybersecurity: social engineering attack vectors, physical security breaches, specialized attack tools, and the psychological principles behind human influence.
+
+### Key Concepts & Knowledge Gained
+
+#### Pretexting & Impersonation
+
+* **Scenarios:** crafting realistic identity pretexts to establish trust with targets.
+* **Execution:** impersonating trusted internal roles (IT support, executives, vendors) or external entities to bypass operational policy barriers.
+
+#### Digital & Remote Attack Vectors
+
+* **Phishing & Spear Phishing:** formulating targeted email campaigns designed to lure victims to malicious entry points.
+* **Vishing & Smishing:** using voice (VoIP) and SMS vectors for rapid credential and data harvesting.
+* **USB Drops:** deploying malicious removable media in high traffic target areas to establish an initial foothold.
+* **Watering Hole Attacks:** compromising legitimate, frequently visited websites to target specific user groups.
+* **Pivot Attacks:** leveraging initial social engineering compromises to move laterally within corporate networks.
+
+#### Physical Security Vectors
+
+* **Tailgate Attacks:** exploiting courtesy or distraction to gain unauthorized facility access.
+* **Badge Cloning:** capturing and replicating RFID credentials.
+* **Shoulder Surfing & Dumpster Diving:** extracting confidential assets, credentials, and sensitive operational intelligence from physical environments.
+
+#### Principles of Influence & Psychological Triggers
+
+Applied social psychology framework used in Red Teaming campaigns:
+
+* **Scarcity & Urgency:** creating time sensitive conditions to force hasty decision making.
+* **Authority:** invoking organizational power or compliance rules to demand victim cooperation.
+* **Fear & Risk Avoidance:** leveraging high consequence scenarios to trigger immediate reaction over validation.
+* **Likeness & Social Proof:** harnessing affinity, peer consensus, or institutional norms to manipulate target behavior in unfamiliar situations.
+
+### Practical Implementation & Hands on Labs
+
+* **Social Engineer Toolkit (SET):** generating credential harvesting web clones, weaponized attack payloads, and automated phishing campaigns.
+* **Browser Exploitation Framework (BeEF):** hooking victim web browsers via injected JavaScript, then executing client side exploitation, keystroke logging, dynamic page manipulation, and fake browser notification prompts.
+* **Call & Identity Spoofing:** simulating trusted caller IDs to enhance voice pretexts.
+
+---
+
 ## Methodology Reference
 
 | Standard | Focus |
