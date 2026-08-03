@@ -28,7 +28,7 @@ Current focus  →  Offensive security, penetration testing, network analysis
 
 ### What each lab documents
 
-Every lab entry includes: objective · environment · methodology · tool output / terminal logs · findings · key learnings. No screenshots of success — raw command output only.
+Every lab entry includes: objective, environment, methodology, tool output / terminal logs, findings, key learnings. No screenshots of success, raw command output only.
 
 ---
 
