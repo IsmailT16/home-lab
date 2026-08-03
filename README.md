@@ -1,6 +1,6 @@
 # Security Lab
 
-> Offensive security through hands-on practice — built on a foundation from *Technisches Gymnasium Informationstechnik* (digital electronics, microcontroller programming in C/C++, OOP, databases, networking — OSI, TCP/IP, VLANs, subnetting, routing, firewalls, IoT).
+> Offensive security through hands-on practice built on a foundation from *Technisches Gymnasium Informationstechnik* (digital electronics, microcontroller programming in C/C++, OOP, databases, networking,  OSI, TCP/IP, VLANs, subnetting, routing, firewalls, IoT).
 
 All testing performed on personally owned and authorized equipment in isolated lab environments.
 
@@ -62,7 +62,7 @@ Every lab entry includes: objective · environment · methodology · tool output
 | Scapy | Manual packet crafting and injection |
 | dig / nslookup / whois | DNS enumeration and passive recon |
 
-**Environment:** Kali Linux · VirtualBox (Internal Network / Bridged Adapter)
+**Environment:** Kali Linux, VirtualBox (Internal Network / Bridged Adapter)
 
 ---
 
@@ -79,11 +79,11 @@ Every lab entry includes: objective · environment · methodology · tool output
 - [x] Network diagnostics — Bufferbloat measurement and root cause analysis
 
 **In progress**
-- [ ] SQL injection — UNION SELECT, hash extraction, Hashcat
+- [ ] SQL injection, UNION SELECT, hash extraction, Hashcat
 - [ ] Network migration post-verification (DSL → Cable baseline comparison)
 
 **Planned**
-- [ ] WiFi pentesting — Alfa AWUS036ACM, WPA2 handshake capture and cracking
+- [ ] WiFi pentesting, Alfa AWUS036ACM, WPA2 handshake capture and cracking
 - [ ] HackTheBox machines
 - [ ] CompTIA Security+
 
