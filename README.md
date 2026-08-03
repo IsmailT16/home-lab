@@ -77,10 +77,11 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 - [x] Password hash dumping and cracking (John the Ripper + rockyou.txt)
 - [x] SQL injection basics and column enumeration (DVWA)
 - [x] Network diagnostics — Bufferbloat measurement and root cause analysis
+- [x] Network migration post-verification (DSL → Cable baseline comparison)
 
 **In progress**
 - [ ] SQL injection, UNION SELECT, hash extraction, Hashcat
-- [ ] Network migration post-verification (DSL → Cable baseline comparison)
+- [ ] Cisco Ethical Hacking Course
 
 **Planned**
 - [ ] WiFi pentesting, Alfa AWUS036ACM, WPA2 handshake capture and cracking
