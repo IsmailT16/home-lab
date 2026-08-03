@@ -76,8 +76,8 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 - [x] Service exploitation with Metasploit (vsftpd 2.3.4 backdoor)
 - [x] Password hash dumping and cracking (John the Ripper + rockyou.txt)
 - [x] SQL injection basics and column enumeration (DVWA)
-- [x] Network diagnostics — Bufferbloat measurement and root cause analysis
-- [x] Network migration post-verification (DSL → Cable baseline comparison)
+- [x] Network diagnostics, Bufferbloat measurement and root cause analysis
+- [x] Network migration post-verification (DSL to Cable baseline comparison)
 
 **In progress**
 - [ ] SQL injection, UNION SELECT, hash extraction, Hashcat
