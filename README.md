@@ -42,10 +42,30 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 
 ## HTB Academy
 
-| Module | Status |
-|---|---|
-| [Learning Process](htb-academy/01-learning-process.md) | ✅ Completed |
-| [Linux Fundamentals](htb-academy/02-linux-fundamentals.md) | 🔄 In Progress (36.67%)[cite: 4] |
+| Module | Category | Status |
+|---|---|---|
+| [Learning Process](htb-academy/01-learning-process.md) | General | ✅ Completed |
+| Intro to Academy | General | ✅ Completed |
+| [Linux Fundamentals](htb-academy/02-linux-fundamentals.md) | General | 🔄 In Progress (36.67%)[cite: 4] |
+| Introduction to Networking | General | 📋 Planned |
+| Web Requests | General | 📋 Planned |
+| Windows Fundamentals | General | 📋 Planned |
+| Introduction to Active Directory | General | 📋 Planned |
+| Introduction to Web Applications | General | 📋 Planned |
+| Getting Started | Offensive | 📋 Planned |
+| Setting Up | General | 📋 Planned |
+| Penetration Testing Process | General | 📋 Planned |
+| MacOS Fundamentals | General | 📋 Planned |
+| Android Fundamentals | General | 📋 Planned |
+| Network Foundations | General | 📋 Planned |
+| Fundamentals of AI | General | 📋 Planned |
+| Introduction to Information Security | General | 📋 Planned |
+| Introduction to Penetration Testing | Offensive | 📋 Planned |
+| SOC Fundamentals | Defensive | 📋 Planned |
+| SIEM 101 | Defensive | 📋 Planned |
+| Linux for Blue Team | Defensive | 📋 Planned |
+| Network Fundamentals | General | 📋 Planned |
+| Data Management | Defensive | 📋 Planned |
 
 ---
 
