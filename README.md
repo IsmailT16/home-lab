@@ -45,6 +45,7 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 | Module | Status |
 |---|---|
 | [Learning Process](htb-academy/01-learning-process.md) | ✅ Completed |
+| [Linux Fundamentals](htb-academy/02-linux-fundamentals.md) | 🔄 In Progress (36.67%)[cite: 4] |
 
 ---
 
@@ -61,8 +62,10 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 | mtr / ping | Latency diagnostics, Bufferbloat measurement |
 | Scapy | Manual packet crafting and injection |
 | dig / nslookup / whois | DNS enumeration and passive recon |
+| find / dpkg / ss / ps | Linux file search, package queries, socket & process inspection[cite: 1] |
+| curl / grep / sed / sort | Web source retrieval and path extraction[cite: 1] |
 
-**Environment:** Kali Linux, VirtualBox (Internal Network / Bridged Adapter)
+**Environment:** Kali Linux, VirtualBox (Internal Network / Bridged Adapter), HTB Pwnbox & Target Lab (`nixfund`)[cite: 1]
 
 ---
 
@@ -82,6 +85,7 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 **In progress**
 - [ ] SQL injection, UNION SELECT, hash extraction, Hashcat
 - [ ] Cisco Ethical Hacking Course
+- [ ] HTB Academy: Linux Fundamentals (36.67%)[cite: 4]
 
 **Planned**
 - [ ] WiFi pentesting, Alfa AWUS036ACM, WPA2 handshake capture and cracking
