@@ -1,10 +1,12 @@
 # Cisco Junior Ethical Hacker
 
 **Platform:** Cisco Skills for All
-**Status:** 🔄 In Progress
+**Status:** ⛔ Access Removed (School Cohort Ended)
 **Focus:** Penetration Testing, Reconnaissance, Legal & Compliance Frameworks
 
 > All practical work performed in a personal isolated lab environment on personally owned and authorized equipment.
+>
+> **Archive Note:** Course access was managed through a school cohort and removed after leaving the school. Modules 1 through 5 were completed and documented prior to access removal.
 
 ---
 
@@ -20,6 +22,8 @@
 |---|---|
 | **Reconnaissance** | Passive & active recon, OSINT, DNS enumeration, SSL certificate analysis, Google Dorking, Shodan, employee intelligence gathering |
 | **Network Analysis** | Nmap scan types (SYN, Connect, UDP, OS detection), packet crafting with Scapy, network sniffing with Wireshark |
+| **Network & Wireless Exploitation** | LLMNR/NBT-NS spoofing, SMB relay, ARP spoofing, DHCP starvation, VLAN hopping, Rogue AP/Evil Twin, BLE/RFID attacks |
+| **Social Engineering** | Pretexting, phishing/vishing/smishing, SET, BeEF browser hooking, psychological influence triggers |
 | **Legal & Compliance** | GDPR, PCI DSS, HIPAA, Rules of Engagement (RoE), penetration testing agreements, scope definition |
 | **Methodology** | OSSTMM, OWASP, NIST, PTES; black box, grey box, and white box testing strategies |
 | **Lab Operations** | Kali Linux VM deployment, isolated lab environments, vulnerability target setup |
@@ -32,9 +36,9 @@ Understanding the foundations of penetration testing: why it exists, who perform
 
 ### Key Concepts & Knowledge Gained
 
-* **Threat Actor Taxonomy:** motivations, capabilities, and tactics of different threat actors (script kiddies, hacktivists, organized crime syndicates, state sponsored APTs, insider threats).
-* **Testing Methodologies:** structured security testing frameworks including OSSTMM, OWASP, NIST SP 800 115, and PTES, and how they keep a methodology consistent across an engagement.
-* **Environment Sandboxing:** setting up isolated virtual environments to conduct offensive security testing without risking host network exposure or unintended side effects.
+- **Threat Actor Taxonomy:** motivations, capabilities, and tactics of different threat actors (script kiddies, hacktivists, organized crime syndicates, state sponsored APTs, insider threats).
+- **Testing Methodologies:** structured security testing frameworks including OSSTMM, OWASP, NIST SP 800 115, and PTES, and how they keep a methodology consistent across an engagement.
+- **Environment Sandboxing:** setting up isolated virtual environments to conduct offensive security testing without risking host network exposure or unintended side effects.
 
 ### Practical Implementation & Hands on Labs
 
@@ -55,9 +59,9 @@ The legal and ethical framework that separates a professional penetration tester
 
 ### Key Concepts & Knowledge Gained
 
-* **Regulatory Compliance:** GDPR, PCI DSS, and HIPAA, and their impact on data handling, legal liability, and testing parameters.
-* **Rules of Engagement (RoE):** clear testing boundaries, authorization limits, time windows, forbidden targets, and emergency contact protocols.
-* **Testing Strategies:** comparing Black Box (unknown environment), Gray Box (partial information), and White Box (known environment, full access) strategies.
+- **Regulatory Compliance:** GDPR, PCI DSS, and HIPAA, and their impact on data handling, legal liability, and testing parameters.
+- **Rules of Engagement (RoE):** clear testing boundaries, authorization limits, time windows, forbidden targets, and emergency contact protocols.
+- **Testing Strategies:** comparing Black Box (unknown environment), Gray Box (partial information), and White Box (known environment, full access) strategies.
 
 ### Practical Implementation & Hands on Labs
 
@@ -80,11 +84,11 @@ Extracting target metadata, administrative contact details, and organization str
 
 **Tools & Techniques Used:**
 
-* **DNS Enumeration:** `nslookup` and `dig` for zone information, MX, TXT, and NS records.
-* **SSL/TLS Inspection:** querying certificate transparency logs (crt.sh) and OpenSSL to extract hidden subdomains and internal naming schemes.
-* **Advanced Google Dorking:** search operators such as `filetype:pdf`, `site:`, `inurl:`, and `intitle:"index of"` to uncover exposed documents and directory listings.
-* **Shodan Search Engine:** querying internet connected devices, open ports, and banner information via Shodan filters.
-* **Employee Intelligence Gathering:** LinkedIn and OSINT techniques to build a picture of an organization's staff and structure.
+- **DNS Enumeration:** `nslookup` and `dig` for zone information, MX, TXT, and NS records.
+- **SSL/TLS Inspection:** querying certificate transparency logs (crt.sh) and OpenSSL to extract hidden subdomains and internal naming schemes.
+- **Advanced Google Dorking:** search operators such as `filetype:pdf`, `site:`, `inurl:`, and `intitle:"index of"` to uncover exposed documents and directory listings.
+- **Shodan Search Engine:** querying internet connected devices, open ports, and banner information via Shodan filters.
+- **Employee Intelligence Gathering:** LinkedIn and OSINT techniques to build a picture of an organization's staff and structure.
 
 | Lab | Tool(s) | Description |
 |---|---|---|
@@ -102,9 +106,9 @@ Direct interaction with the target, requiring explicit authorization (signed RoE
 
 **Tools & Techniques Used:**
 
-* **Nmap Port Scanning:** SYN Stealth (`-sS`), TCP Connect (`-sT`), UDP (`-sU`), Service Versioning (`-sV`), and OS Detection (`-O`) scans.
-* **Scapy Packet Crafting:** using Python's scapy library to build custom IP/TCP packets, manipulate TCP flags (SYN, FIN, NULL, XMAS), and analyze raw response behavior.
-* **Wireshark Traffic Analysis:** sniffing and inspecting pcap files to capture credentials, dissect protocol handshakes, and identify unencrypted traffic (HTTP, FTP, Telnet).
+- **Nmap Port Scanning:** SYN Stealth (`-sS`), TCP Connect (`-sT`), UDP (`-sU`), Service Versioning (`-sV`), and OS Detection (`-O`) scans.
+- **Scapy Packet Crafting:** using Python's scapy library to build custom IP/TCP packets, manipulate TCP flags (SYN, FIN, NULL, XMAS), and analyze raw response behavior.
+- **Wireshark Traffic Analysis:** sniffing and inspecting pcap files to capture credentials, dissect protocol handshakes, and identify unencrypted traffic (HTTP, FTP, Telnet).
 
 | Lab | Tool(s) | Description |
 |---|---|---|
@@ -122,37 +126,37 @@ This module covers the human element of cybersecurity: social engineering attack
 
 #### Pretexting & Impersonation
 
-* **Scenarios:** crafting realistic identity pretexts to establish trust with targets.
-* **Execution:** impersonating trusted internal roles (IT support, executives, vendors) or external entities to bypass operational policy barriers.
+- **Scenarios:** crafting realistic identity pretexts to establish trust with targets.
+- **Execution:** impersonating trusted internal roles (IT support, executives, vendors) or external entities to bypass operational policy barriers.
 
 #### Digital & Remote Attack Vectors
 
-* **Phishing & Spear Phishing:** formulating targeted email campaigns designed to lure victims to malicious entry points.
-* **Vishing & Smishing:** using voice (VoIP) and SMS vectors for rapid credential and data harvesting.
-* **USB Drops:** deploying malicious removable media in high traffic target areas to establish an initial foothold.
-* **Watering Hole Attacks:** compromising legitimate, frequently visited websites to target specific user groups.
-* **Pivot Attacks:** leveraging initial social engineering compromises to move laterally within corporate networks.
+- **Phishing & Spear Phishing:** formulating targeted email campaigns designed to lure victims to malicious entry points.
+- **Vishing & Smishing:** using voice (VoIP) and SMS vectors for rapid credential and data harvesting.
+- **USB Drops:** deploying malicious removable media in high traffic target areas to establish an initial foothold.
+- **Watering Hole Attacks:** compromising legitimate, frequently visited websites to target specific user groups.
+- **Pivot Attacks:** leveraging initial social engineering compromises to move laterally within corporate networks.
 
 #### Physical Security Vectors
 
-* **Tailgate Attacks:** exploiting courtesy or distraction to gain unauthorized facility access.
-* **Badge Cloning:** capturing and replicating RFID credentials.
-* **Shoulder Surfing & Dumpster Diving:** extracting confidential assets, credentials, and sensitive operational intelligence from physical environments.
+- **Tailgate Attacks:** exploiting courtesy or distraction to gain unauthorized facility access.
+- **Badge Cloning:** capturing and replicating RFID credentials.
+- **Shoulder Surfing & Dumpster Diving:** extracting confidential assets, credentials, and sensitive operational intelligence from physical environments.
 
 #### Principles of Influence & Psychological Triggers
 
 Applied social psychology framework used in Red Teaming campaigns:
 
-* **Scarcity & Urgency:** creating time sensitive conditions to force hasty decision making.
-* **Authority:** invoking organizational power or compliance rules to demand victim cooperation.
-* **Fear & Risk Avoidance:** leveraging high consequence scenarios to trigger immediate reaction over validation.
-* **Likeness & Social Proof:** harnessing affinity, peer consensus, or institutional norms to manipulate target behavior in unfamiliar situations.
+- **Scarcity & Urgency:** creating time sensitive conditions to force hasty decision making.
+- **Authority:** invoking organizational power or compliance rules to demand victim cooperation.
+- **Fear & Risk Avoidance:** leveraging high consequence scenarios to trigger immediate reaction over validation.
+- **Likeness & Social Proof:** harnessing affinity, peer consensus, or institutional norms to manipulate target behavior in unfamiliar situations.
 
 ### Practical Implementation & Hands on Labs
 
-* **Social Engineer Toolkit (SET):** generating credential harvesting web clones, weaponized attack payloads, and automated phishing campaigns.
-* **Browser Exploitation Framework (BeEF):** hooking victim web browsers via injected JavaScript, then executing client side exploitation, keystroke logging, dynamic page manipulation, and fake browser notification prompts.
-* **Call & Identity Spoofing:** simulating trusted caller IDs to enhance voice pretexts.
+- **Social Engineer Toolkit (SET):** generating credential harvesting web clones, weaponized attack payloads, and automated phishing campaigns.
+- **Browser Exploitation Framework (BeEF):** hooking victim web browsers via injected JavaScript, then executing client side exploitation, keystroke logging, dynamic page manipulation, and fake browser notification prompts.
+- **Call & Identity Spoofing:** simulating trusted caller IDs to enhance voice pretexts.
 
 ---
 
@@ -164,17 +168,22 @@ This module focuses on network layer vulnerabilities, protocol exploitation, and
 
 #### Network Based Attacks
 
-* **Name Resolution & Protocol Spoofing:** Windows Name Resolution (LLMNR/NBT-NS), SMB relaying, DNS cache poisoning, and SMTP enumeration and exploits.
-* **Authentication & Directory Services:** Kerberoasting, LDAP based attacks, and Pass the Hash (PtH) techniques.
-* **Traffic & Route Manipulation:** On Path (Man in the Middle) attacks using tools like Ettercap, route manipulation, ARP spoofing, and DHCP starvation and rogue DHCP server deployment.
-* **Infrastructure & Access Controls:** DoS/DDoS attack vectors, Network Access Control (NAC) bypass using MAC address spoofing, and VLAN Hopping (including double tagging mitigations).
+- **Name Resolution & Protocol Spoofing:** Windows Name Resolution (LLMNR/NBT-NS), SMB relaying, DNS cache poisoning, and SMTP enumeration and exploits.
+- **Authentication & Directory Services:** Kerberoasting, LDAP based attacks, and Pass the Hash (PtH) techniques.
+- **Traffic & Route Manipulation:** On Path (Man in the Middle) attacks using tools like Ettercap, route manipulation, ARP spoofing, and DHCP starvation and rogue DHCP server deployment.
+- **Infrastructure & Access Controls:** DoS/DDoS attack vectors, Network Access Control (NAC) bypass using MAC address spoofing, and VLAN Hopping (including double tagging mitigations).
 
 #### Wireless & Short Range Attacks
 
-* **WiFi Exploitation:** Rogue Access Points, Evil Twin setups, Deauthentication and Disassociation frames, Preferred Network List (PNL) attacks, and KARMA attacks.
-* **Cryptographic & Protocol Weaknesses:** Initialization Vector (IV) flaws, fragmentation attacks, and credential harvesting.
-* **Short Range Protocols:** Bluetooth Low Energy (BLE) vulnerabilities, Bluejacking, Bluesnarfing, and RFID cloning and attacks.
-* **Attack Methodologies:** Password spraying, signal jamming and interference awareness, war driving, and exploit chaining.
+- **WiFi Exploitation:** Rogue Access Points, Evil Twin setups, Deauthentication and Disassociation frames, Preferred Network List (PNL) attacks, and KARMA attacks.
+- **Cryptographic & Protocol Weaknesses:** Initialization Vector (IV) flaws, fragmentation attacks, and credential harvesting.
+- **Short Range Protocols:** Bluetooth Low Energy (BLE) vulnerabilities, Bluejacking, Bluesnarfing, and RFID cloning and attacks.
+- **Attack Methodologies:** Password spraying, signal jamming and interference awareness, war driving, and exploit chaining.
+
+### Practical Implementation & Hands on Labs
+
+- **Layer 2 & MITM Lab Exercises:** executing ARP spoofing and packet interception with Ettercap, analyzing spoofed traffic in Wireshark, and validating network segmentation controls against VLAN hopping.
+- **Credential & Protocol Auditing:** capturing and analyzing authentication exchanges across local network protocols and testing MAC spoofing behavior against port security rules.
 
 ---
 
