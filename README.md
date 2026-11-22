@@ -111,7 +111,7 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 - [ ] CompTIA Security+
 
 **Access Removed**
-- [⛔] Cisco Ethical Hacking Course
+- [x] Cisco Ethical Hacking Course
 
 ---
 
