@@ -103,13 +103,15 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 
 **In progress**
 - [ ] SQL injection, UNION SELECT, hash extraction, Hashcat
-- [ ] Cisco Ethical Hacking Course
 - [ ] HTB Academy: Linux Fundamentals (36.67%)
 
 **Planned**
 - [ ] WiFi pentesting, Alfa AWUS036ACM, WPA2 handshake capture and cracking
 - [ ] HackTheBox machines
 - [ ] CompTIA Security+
+
+**⛔ Access Removed**
+- [ ] Cisco Ethical Hacking Course
 
 ---
 
