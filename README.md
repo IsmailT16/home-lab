@@ -46,7 +46,7 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 |---|---|---|
 | [Intro to Academy](htb-academy/00-intro-to-academy.md) | General | ✅ Completed |
 | [Learning Process](htb-academy/01-learning-process.md) | General | ✅ Completed |
-| [Linux Fundamentals](htb-academy/02-linux-fundamentals.md) | General | 🔄 In Progress (36.67%)[cite: 4] |
+| [Linux Fundamentals](htb-academy/02-linux-fundamentals.md) | General | 🔄 In Progress (36.67%) |
 | Introduction to Networking | General | 📋 Planned |
 | Web Requests | General | 📋 Planned |
 | Windows Fundamentals | General | 📋 Planned |
@@ -81,10 +81,10 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 | mtr / ping | Latency diagnostics, Bufferbloat measurement |
 | Scapy | Manual packet crafting and injection |
 | dig / nslookup / whois | DNS enumeration and passive recon |
-| find / dpkg / ss / ps | Linux file search, package queries, socket & process inspection[cite: 1] |
-| curl / grep / sed / sort | Web source retrieval and path extraction[cite: 1] |
+| find / dpkg / ss / ps | Linux file search, package queries, socket & process inspection |
+| curl / grep / sed / sort | Web source retrieval and path extraction |
 
-**Environment:** Kali Linux, VirtualBox (Internal Network / Bridged Adapter), HTB Pwnbox & Target Lab (`nixfund`)[cite: 1]
+**Environment:** Kali Linux, VirtualBox (Internal Network / Bridged Adapter), HTB Pwnbox & Target Lab (`nixfund`)
 
 ---
 
@@ -104,7 +104,7 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 **In progress**
 - [ ] SQL injection, UNION SELECT, hash extraction, Hashcat
 - [ ] Cisco Ethical Hacking Course
-- [ ] HTB Academy: Linux Fundamentals (36.67%)[cite: 4]
+- [ ] HTB Academy: Linux Fundamentals (36.67%)
 
 **Planned**
 - [ ] WiFi pentesting, Alfa AWUS036ACM, WPA2 handshake capture and cracking
