@@ -107,7 +107,6 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 
 **Planned**
 - [ ] WiFi pentesting, Alfa AWUS036ACM, WPA2 handshake capture and cracking
-- [ ] HackTheBox machines
 - [ ] CompTIA Security+
 
 **Access Removed**
