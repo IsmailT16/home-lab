@@ -36,7 +36,7 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 
 | Course | Provider | Modules Covered | Status |
 |---|---|---|---|
-| [Junior Ethical Hacker](certifications/CISCO_ETHICAL_HACKING.md) | Cisco Skills for All | Recon · GRC · Pentesting Methodology | 🔄 In Progress |
+| [Junior Ethical Hacker](certifications/CISCO_ETHICAL_HACKING.md) | Cisco Skills for All | Recon · GRC · Pentesting Methodology | ⛔ Access Removed (No Longer Accessible) |
 
 ---
 
