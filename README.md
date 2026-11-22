@@ -44,8 +44,8 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 
 | Module | Category | Status |
 |---|---|---|
+| [Intro to Academy](htb-academy/00-intro-to-academy.md) | General | ✅ Completed |
 | [Learning Process](htb-academy/01-learning-process.md) | General | ✅ Completed |
-| Intro to Academy | General | ✅ Completed |
 | [Linux Fundamentals](htb-academy/02-linux-fundamentals.md) | General | 🔄 In Progress (36.67%)[cite: 4] |
 | Introduction to Networking | General | 📋 Planned |
 | Web Requests | General | 📋 Planned |
@@ -66,7 +66,6 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 | Linux for Blue Team | Defensive | 📋 Planned |
 | Network Fundamentals | General | 📋 Planned |
 | Data Management | Defensive | 📋 Planned |
-
 ---
 
 ## Tools
