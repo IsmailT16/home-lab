@@ -110,8 +110,8 @@ Every lab entry includes: objective, environment, methodology, tool output / ter
 - [ ] HackTheBox machines
 - [ ] CompTIA Security+
 
-**⛔ Access Removed**
-- [ ] Cisco Ethical Hacking Course
+**Access Removed**
+- Cisco Ethical Hacking Course
 
 ---
 
